@@ -16,3 +16,11 @@ body {
 img {
     width: 100px;
 }
+
+.heroSection {
+    width: 720px;
+    height: 343px;
+    margin: 0px auto;
+    background-image: url("images/torshov.jpg");
+    background-size: cover;
+}
