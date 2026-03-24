@@ -51,3 +51,9 @@ h2 {
     background-color: #457B9D;
     box-sizing: border-box;
 }
+
+.activitiesSection {
+    width: 720px;
+    height: 378px;
+    background: #A8DADC;
+}
