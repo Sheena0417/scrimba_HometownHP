@@ -11,6 +11,10 @@ DARK BLUE: #1D3557
 body {
     margin: 0;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 img {
@@ -56,4 +60,29 @@ h2 {
     width: 720px;
     height: 378px;
     background: #A8DADC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.activitiesSection_fonts {
+    font-weight: bold;
+}
+
+.spot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.img_radius {
+    border-radius: 50%;
+}
+
+.spot_sections {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
