@@ -13,7 +13,6 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -24,7 +23,6 @@ img {
 .heroSection {
     width: 720px;
     height: 343px;
-    margin: 0px auto;
     background-image: url("images/torshov.jpg");
     background-size: cover;
 
@@ -59,7 +57,7 @@ h2 {
 .activitiesSection {
     width: 720px;
     height: 378px;
-    background: #A8DADC;
+    background: #F1FAEE;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -71,7 +69,6 @@ h2 {
 
 .spot {
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
 }
 
@@ -83,6 +80,34 @@ h2 {
     width: 180px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.guide_section {
+    width: 720px;
+    height: 394px;
+    background: white;
+
+    display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.card {
+    width: 360px;
+    padding: 20px 15px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #A8DADC;
+    color: #1D3557;
+    border-bottom: 8px solid #1D3557;
+    border-radius: 8px;
+}
+
+.guide_img {
+    width: 150px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
